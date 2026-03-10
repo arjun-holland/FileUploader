@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_SECRET_KEY=dev-secret-key-123
+      - DJANGO_DEBUG=True
+      - MONGO_URI=mongodb://mongodb:27017/
+      - MONGO_DB_NAME=file_uploads_db
+    depends_on:
+      - mongodb
+    volumes:
+      - ./backend/media:/app/media
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
