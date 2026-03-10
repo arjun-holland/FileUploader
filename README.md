@@ -1,4 +1,4 @@
-# Full Stack File Upload Service - SkyVault API
+# File Upload Service - SkyVault API
 
 A production-ready full-stack application built with React, Django REST Framework, and MongoDB for uploading files and retrieving metadata.
 
