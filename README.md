@@ -28,3 +28,6 @@ A production-ready full-stack application built with React, Django REST Framewor
 - `GET /api/files`: Returns all uploaded file metadata stored in MongoDB.
 - `GET /api/files/{file_id}`: Returns exact metadata for a specific file.
 - `GET /api/download/{file_id}`: Retrieves the stored file and returns it as a downloadable attachment with proper CORS extraction mapping headers.
+
+
+## Live Link: https://fileuploader-1-duvl.onrender.com
