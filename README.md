@@ -31,3 +31,19 @@ A production-ready full-stack application built with React, Django REST Framewor
 
 
 ## Live Link: https://fileuploader-1-duvl.onrender.com
+
+
+## OUTPUTS
+
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/0e497e93-0adf-4903-9dbb-b693f35c0853" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/47546b35-1f47-4521-bbf1-07241c02b19e" />
+
+### Uploading a File
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/941036b4-f9ca-4668-aed0-77323d3bcfb9" />
+
+### Uploadings
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/871933a5-5265-45b5-9380-9f6a4441ccb0" />
+
+### Delete a File
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/5d51c066-e706-45d7-bdb9-6138d952051b" />
+
